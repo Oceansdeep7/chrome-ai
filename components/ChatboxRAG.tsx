@@ -1,6 +1,7 @@
 "use client";
 
 import {useEffect, useState} from "react";
+import { Textarea } from '@headlessui/react'
 
 import {Button} from "@/components/ui/button";
 import {Input} from "./ui/input";
@@ -32,6 +33,7 @@ export default function ChatBox() {
         execute: async (inputValue?: string) => {
         },
     });
+    const [context, setContext] = useState('')
     const [isAI, setIsAI] = useState<null | boolean>(null);
     const [inputValue, setInputValue] = useState("");
     const [inferring, setInferring] = useState(false);
@@ -99,6 +101,8 @@ export default function ChatBox() {
                         }
                     })}
                 </div>
+
+                <Textarea className='my-2' value={context} onChange={(e) => setContext(e.target.value)}/>
                 <form
                     className='flex w-full items-center space-x-2'
                     onSubmit={async (form) => {
