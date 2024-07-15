@@ -1,8 +1,6 @@
 "use client";
 
 import {useEffect, useState} from "react";
-import { Textarea } from '@headlessui/react'
-
 import {Button} from "@/components/ui/button";
 import {Input} from "./ui/input";
 import {useRef} from "react";
@@ -102,7 +100,17 @@ export default function ChatBox() {
                     })}
                 </div>
 
-                <Textarea className='my-2' value={context} onChange={(e) => setContext(e.target.value)}/>
+                <Input
+                    placeholder='Input RAG knowledge base text'
+                    className='w-full my-2'
+                    name='text'
+                    value={context}
+                    onInput={(e) => {
+                        if ("value" in e.target) {
+                            setContext(e.target.value as string);
+                        }
+                    }}
+                />
                 <form
                     className='flex w-full items-center space-x-2'
                     onSubmit={async (form) => {
@@ -114,7 +122,16 @@ export default function ChatBox() {
                         setInferring(true);
 
 
-                        let aiReplay = (await model.prompt(inputValue)) as unknown as string;
+                        let aiReplay = (await model.prompt(`Use the following pieces of context to answer the question at the end.
+If you don't know the answer, just say that you don't know, don't try to make up an answer.
+<context>
+  ${context}
+</context>
+
+
+Question: ${inputValue}
+                        
+                       `)) as unknown as string;
 
                         if (!aiReplay || aiReplay.length == 0) {
                             aiReplay = "[Nothing]";

@@ -31,7 +31,7 @@ const FAQ = [
 export default function Page() {
     return (<>
             <section className="mx-auto max-w-[960px] text-center">
-                <h1 className="mb-10 text-4xl md:mb-16">Built-in AI Chat</h1>
+                <h1 className="mb-10 text-4xl font-bold md:mb-16">Built-in AI Chat</h1>
                 <p className="mx-auto mb-8 mt-0 text-base md:text-lg">The Built-in AI for Chrome, enabling local
                     prototyping with Gemini Nano for potential web AI enhancements.</p>
                 <Link href='/chat'
@@ -40,10 +40,11 @@ export default function Page() {
                 </Link>
             </section>
             <section>
-                <h2 className="mx-auto max-w-[960px] mt-10 text-4xl font-bold text-center">Frequently Asked Questions</h2>
+                <h2 className="mx-auto max-w-[960px] mt-10 text-3xl font-bold text-center">Frequently Asked
+                    Questions</h2>
                 <div className='mt-10'>
                     {FAQ.map((item, index) => (
-                        <div className={`px-7 py-6 my-5`} key={index}>
+                        <div className={`px-7 py-6  lg:py-10 my-5`} key={index}>
                             <Disclosure title={item.title} content={item.content}></Disclosure>
                         </div>
                     ))}

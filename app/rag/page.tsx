@@ -1,5 +1,5 @@
 import {Metadata} from "next";
-import ChatBoxRAG from "@/components/Chatbox";
+import ChatBoxRAG from "@/components/ChatboxRAG";
 
 export const metadata: Metadata = {
     title: "Chrome AI - Offline RAG - window.ai",
