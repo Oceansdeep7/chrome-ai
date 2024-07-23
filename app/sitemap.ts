@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next'
-const HOST = 'https://broswer-ai.tech'
+const HOST = 'https://browser-ai.tech'
 export default function sitemap(): MetadataRoute.Sitemap {
     return [
         {
