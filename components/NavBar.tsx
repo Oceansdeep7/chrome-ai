@@ -59,7 +59,7 @@ export default function Navbar() {
         setMobileMenuOpen(false);
     };
     return (
-        <div className="p-4 dark:bg-black dark:text-gray-100">
+        <header className="p-4">
             <div className="container flex justify-between h-16 mx-auto px-0 sm:px-6">
                 <Link
                     href="/"
@@ -123,6 +123,6 @@ export default function Navbar() {
                     <Bars3Icon className="h-7 w-7" aria-hidden="true"/>
                 </button>
             </div>
-        </div>
+        </header>
     );
 }

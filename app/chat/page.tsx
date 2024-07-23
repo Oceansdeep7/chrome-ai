@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
     return (<section
-            className='m-4 flex-1 px-4 py-4 border-border rounded-lg border backdrop-blur-[2px]'>
+            className='mt-6 mx-6 sm:mx-12 flex-1 px-4 py-4 border-border rounded-lg border backdrop-blur-[2px]'>
             <div className='mx-auto flex w-full flex-col gap-8'>
                 <div className='col-span-full flex items-start justify-between gap-1'>
                     <div className='flex min-w-0 flex-col gap-1'>

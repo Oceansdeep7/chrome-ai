@@ -132,10 +132,14 @@ export default function ChatBox() {
                         setInputValue("");
                         setInferring(false);
                     }}
-                    onReset={() => {
+                    onReset={async () => {
+                        setInferring(true)
                         id.current = 0
                         setChatHistory([]);
                         setInputValue("");
+                        const model = await window.ai.createTextSession();
+                        setModel(model);
+                        setInferring(false)
                     }}
                 >
                     <Button type='reset' disabled={!isAI || inferring}>
