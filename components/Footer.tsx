@@ -61,7 +61,7 @@ export default function Footer() {
                             className="flex items-center p-2"
                         >
                             <Image src={Logo} width={36} height={36} alt="logo"/>
-                            <h2 className="ml-4 text-2xl font-bold">ChromeAI</h2>
+                            <h2 className="ml-4 text-2xl font-bold">BrowserAI</h2>
                         </Link>
                     </div>
 
@@ -86,7 +86,7 @@ export default function Footer() {
                 <div className="grid justify-center pt-6 lg:justify-between">
                     <div className="flex">
             <span className="mr-2">
-              ChromeAi.tech © 2024 All rights reserved
+              browser-ai.tech © 2024 All rights reserved
             </span>
                         <ul className="flex">
                             {legalLinks.map(link => (<li className="flex" key={link.url}>

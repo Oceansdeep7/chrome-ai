@@ -5,13 +5,13 @@ import prompt from "@/assets//prompt-api-for-gemini-nano.png"
 import Image from "next/image";
 
 export const metadata: Metadata = {
-    title: "Chrome AI - Setup Guide",
+    title: "Browser AI - Chrome - Setup Guide",
 }
 
 export default function Page() {
     return (<section className="py-10 lg:px-8">
             <div className="mx-auto rounded-lg p-6">
-                <h1 className="text-2xl font-bold mb-4">Setup Guide for Chrome AI</h1>
+                <h1 className="text-2xl font-bold mb-4">Setup Guide for Chrome</h1>
                 <div className="mb-8">
                     <h2 className="text-lg font-semibold mb-2">Prerequisites and Initial Steps</h2>
                     <ul className="list-disc ml-4">

@@ -67,7 +67,7 @@ export default function Navbar() {
                     className="flex items-center p-2"
                 >
                     <Image src={Logo} width={36} height={36} alt="logo"/>
-                    <h2 className="ml-4 text-2xl font-bold">ChromeAI</h2>
+                    <h2 className="ml-4 text-2xl font-bold">BrowserAI</h2>
                 </Link>
 
                 <div className="items-center flex-shrink-0 hidden lg:flex">

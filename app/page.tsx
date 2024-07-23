@@ -3,9 +3,9 @@ import Disclosure from "@/components/Disclosure";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-    title: "Chrome AI - Offline AI Tools - Free",
+    title: "Browser AI - Offline AI Tools - Free",
     description:
-        "Run Chrome built-in LLM in your browser.",
+        "Run browser built-in LLM in your browser.",
 };
 
 const FAQ = [
@@ -13,7 +13,7 @@ const FAQ = [
         title: 'Compatibility issue on macOS',
         content: 'The use of Rosetta to run the x64 version of Chromium on ARM is neither tested nor maintained, and unexpected behavior will likely result. Please check that all tools that spawn Chromium are ARM-native.'
     },
-    {title: 'Is the Chrome Built-in AI Tool free to use?', content: 'Yes,this is run locally and free to use.'},
+    {title: 'Is the browser Built-in AI Tool free to use?', content: 'Yes,this is run locally and free to use.'},
     {
         title: 'What is the length of the context window?',
         content: 'The default context window is set to 1024 tokens. For Gemini Nano, the theoretical maximum is 32k, but there is a tradeoff between context size and performance.'
@@ -31,8 +31,8 @@ const FAQ = [
 export default function Page() {
     return (<>
             <section className="mx-auto max-w-[960px] text-center">
-                <h1 className="mb-10 text-4xl font-bold md:mb-16">Built-in AI Chat</h1>
-                <p className="mx-auto mb-8 mt-0 text-base md:text-lg">The Built-in AI for Chrome, enabling local
+                <h1 className="mb-10 text-4xl font-bold md:mb-16">Browser Built-in AI Chat</h1>
+                <p className="mx-auto mb-8 mt-0 text-base md:text-lg">The Browser Built-in AI for Chrome, enabling local
                     prototyping with Gemini Nano for potential web AI enhancements.</p>
                 <Link href='/chat'
                       className="inline-flex justify-center min-w-[240px] rounded-full bg-theme px-11 py-6 text-base font-medium leading-none text-white outline-none">

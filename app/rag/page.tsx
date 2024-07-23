@@ -2,7 +2,7 @@ import {Metadata} from "next";
 import ChatBoxRAG from "@/components/ChatboxRAG";
 
 export const metadata: Metadata = {
-    title: "Chrome AI - Offline RAG - window.ai",
+    title: "Browser AI - Chrome AI - Offline RAG - window.ai",
     description:
         "Run RAG in your browser. Processing sensitive data locally",
 };

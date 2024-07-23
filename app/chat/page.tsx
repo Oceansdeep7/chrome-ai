@@ -2,7 +2,7 @@ import {Metadata} from "next";
 import ChatBox from "@/components/Chatbox";
 
 export const metadata: Metadata = {
-    title: "Chrome AI - Built-in LLM - Offline AI - window.ai",
+    title: "Browser AI - Built-in LLM - Offline AI - window.ai",
     description:
         "Run LLM in your browser. Processing sensitive data locally",
 };

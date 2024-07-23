@@ -1,7 +1,7 @@
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: "Chrome AI - Terms of Service",
+    title: "Browser AI - Terms of Service",
 }
 
 export default function Page() {

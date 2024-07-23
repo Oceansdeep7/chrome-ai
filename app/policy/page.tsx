@@ -1,7 +1,7 @@
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: "Chrome AI - Privacy Policy",
+    title: "Browser AI - Privacy Policy",
 }
 
 export default function Page () {
@@ -90,8 +90,8 @@ export default function Page () {
                 your cookie settings, you hereby acknowledge and agree to the Web's use of cookies.</p><h4
                 className="my-4 text-[1.5rem] font-bold">Privacy Policy Changes</h4>
                 <p className="text-xl">Although most
-                    changes are likely to be minor, ChromeAI may change its Privacy Policy from time to time, and at
-                    ChromeAI's sole discretion. ChromeAI encourages visitors to frequently check this page for any
+                    changes are likely to be minor, BrowserAI may change its Privacy Policy from time to time, and at
+                    BrowserAI's sole discretion. BrowserAI encourages visitors to frequently check this page for any
                     changes
                     to its Privacy Policy. Your continued use of this site after any change in this Privacy Policy will
                     constitute your acceptance of such change.</p></div>
