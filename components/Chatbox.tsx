@@ -62,7 +62,7 @@ export default function ChatBox() {
                 {isAI === null ? <p>Testing your browser</p> : !isAI && <p>
                     Built-in AI is not working. Please check out the {" "}
                     <Link
-                        href="/setup"
+                        href="/chrome/setup"
                         className='font-medium text-primary underline underline-offset-4'
                     >
                         setup guide

@@ -45,7 +45,7 @@ const categoryLinks = [
 ]
 
 const menuLinks = [
-    {url: '/setup', text: 'Setup'},
+    {url: '/chrome/setup', text: 'Setup'},
     // {url: '/faq', text: 'FAQ'},
 ]
 

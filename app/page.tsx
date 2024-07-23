@@ -10,6 +10,10 @@ export const metadata: Metadata = {
 
 const FAQ = [
     {
+        title: 'Can I use this AI tool in other browsers?',
+        content: 'No, Chrome work towards defining common standards for AI integration in web browsers.'
+    },
+    {
         title: 'Compatibility issue on macOS',
         content: 'The use of Rosetta to run the x64 version of Chromium on ARM is neither tested nor maintained, and unexpected behavior will likely result. Please check that all tools that spawn Chromium are ARM-native.'
     },
@@ -22,18 +26,13 @@ const FAQ = [
         title: 'Is there a way to know the token length of the input prompt?',
         content: 'Not at the moment. We acknowledge that this is inconvenient. For Latin languages, consider using this rule of thumb: one token is about four characters long.'
     },
-    {
-        title: 'Can I use this AI tool in other browsers?',
-        content: 'No,Chrome work towards defining common standards for AI integration in web browsers.'
-    },
 ]
 
 export default function Page() {
     return (<>
             <section className="mx-auto max-w-[960px] text-center">
-                <h1 className="mb-10 text-4xl font-bold md:mb-16">Browser Built-in AI Chat</h1>
-                <p className="mx-auto mb-8 mt-0 text-base md:text-lg">The Browser Built-in AI for Chrome, enabling local
-                    prototyping with Gemini Nano for potential web AI enhancements.</p>
+                <h1 className="mb-10 text-4xl font-bold md:mb-16">Free Browser Built-in AI Tools</h1>
+                <p className="mx-auto mb-8 mt-0 text-base md:text-lg">Run AI tools with Gemini Nano locally, no more worries about usage limits.</p>
                 <Link href='/chat'
                       className="inline-flex justify-center min-w-[240px] rounded-full bg-theme px-11 py-6 text-base font-medium leading-none text-white outline-none">
                     Chat for Free
