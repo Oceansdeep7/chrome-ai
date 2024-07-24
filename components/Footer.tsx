@@ -42,6 +42,7 @@ const legalLinks = [
 const categoryLinks = [
     {url: '/chat', text: 'Chat'},
     {url: '/rag', text: 'RAG'},
+    {url: '/translator', text: 'Translator'},
 ]
 
 const menuLinks = [

@@ -50,6 +50,7 @@ function MobileNavLink({url, text, closeMenu}: MobileNavLink) {
 const links = [
     {url: '/chat', text: 'Chat'},
     {url: '/rag', text: 'RAG'},
+    {url: '/translator', text: 'Translator'},
     {url: '/chrome/setup', text: 'Setup'},
 ]
 

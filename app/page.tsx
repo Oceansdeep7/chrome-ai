@@ -35,7 +35,7 @@ export default function Page() {
                 <p className="mx-auto mb-8 mt-0 text-base md:text-lg">Run AI tools with Gemini Nano locally, no more worries about usage limits.</p>
                 <Link href='/chat'
                       className="inline-flex justify-center min-w-[240px] rounded-full bg-theme px-11 py-6 text-base font-medium leading-none text-white outline-none">
-                    Chat for Free
+                    Free AI Playground
                 </Link>
             </section>
             <section>

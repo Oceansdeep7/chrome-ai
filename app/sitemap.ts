@@ -17,6 +17,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 1,
         },
         {
+            url:`${HOST}/translator`,
+            priority: 1,
+        },
+        {
             url:`${HOST}/chrome/setup`,
             priority: 1,
         },

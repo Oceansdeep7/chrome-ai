@@ -2,6 +2,8 @@ import "./globals.css";
 import Navbar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Script from "next/script";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function RootLayout({
   children,
@@ -26,6 +28,7 @@ export default function RootLayout({
           gtag('config', 'G-7HV5DFEDXE');
         `}
       </Script>
+      <ToastContainer/>
       </body>
     </html>
   );
