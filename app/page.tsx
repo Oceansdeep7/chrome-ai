@@ -32,7 +32,7 @@ export default function Page() {
     return (<>
             <section className="mx-auto max-w-[960px] text-center">
                 <h1 className="mb-10 text-4xl font-bold md:mb-16">Free Browser Built-in AI Tools</h1>
-                <p className="mx-auto mb-8 mt-0 text-base md:text-lg">Run AI tools with Gemini Nano locally, no more worries about usage limits.</p>
+                <p className="mx-auto mb-8 mt-0 text-base md:text-lg">All AI tools is free to use and easy to try. You can use AI with sensitive data locally, no more worries about privacy and usage limits.</p>
                 <Link href='/chat'
                       className="inline-flex justify-center min-w-[240px] rounded-full bg-theme px-11 py-6 text-base font-medium leading-none text-white outline-none">
                     Free AI Playground

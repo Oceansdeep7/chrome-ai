@@ -4,6 +4,13 @@ import Footer from "@/components/Footer";
 import Script from "next/script";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    applicationName: 'BrowserAI',
+    manifest: "/manifest.json",
+    viewport: 'minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover'
+}
 
 export default function RootLayout({
   children,
